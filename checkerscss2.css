@@ -1,0 +1,80 @@
+body {
+    background-color: #dddddd;
+    text-align: center;
+}
+
+#board-container {
+    background-image: url("images/whitesquare.png");
+    display: inline-block;
+    padding: 2%;
+}
+.row {
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+}
+.cell {   
+    width: 10vmin;
+    height: 10vmin;
+/***max-height: 11vh;
+    max-width: 11vh; ***/
+    display: inline-block;
+    margin: 0px;
+}
+
+.checker {
+height: 100%;
+width: 100%;
+}
+
+.black {
+    background-image: url("images/blacksquare.png");
+}
+
+.white {
+    background-image: url("images/whitesquare.png");
+}
+
+.black-checker {
+    background-size: cover;  
+    background-image: url("images/chessblackpawn.png");  
+}
+
+.white-checker {
+    background-size: cover;  
+    background-image: url("images/chesswhitepawn.png");  
+}
+
+/*** .checker-wrapper {
+Height: 100%;
+width: 100%;
+}
+
+.row {
+display: flex;
+justify-content: space-evenly;
+}
+.cell {
+width: 90px;
+height: 90px;
+display: inline-block;
+margin: 0px;
+}
+.red {
+background-image: url("white-square.jpg");
+}
+.black {
+background-color: black;
+}
+.checker {
+margin: 10px;
+border-radius: 50%;
+height: 70px;
+width: 70px;
+}
+.red-checker {
+background-color: 
+}
+.black-checker {
+background-color: #555;
+}
+***/

@@ -1,0 +1,97 @@
+body {
+    background-color: #dddddd;
+    text-align: center;
+}
+
+#board-container {
+    background-image: url("images/whitesquare.png");
+    display: inline-block;
+    padding: 2%;
+}
+.row {
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+}
+.cell {   
+    width: 10vmin;
+    height: 10vmin;
+/***max-height: 11vh;
+    max-width: 11vh; ***/
+    display: inline-block;
+    margin: 0px;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-image: url("images/whitesquare.png");
+}
+
+.checker {
+    margin: 10%;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-checker {
+    background-image: url("images/whitechecker.png");
+    background-size: cover;
+}
+
+.black-checker {
+    background-image: url("images/blackchecker.png");
+    background-size: cover;
+}
+
+.selected {
+margin: 0px;
+border: 1vmin solid rgb(255,255,0);
+background-repeat: no-repeat;
+}
+
+.out-of-play {
+    width: 10vmin;
+    height: 10vmin;
+    display: inline-block;
+}
+
+/*** .checker-wrapper {
+Height: 100%;
+width: 100%;
+}
+
+.row {
+display: flex;
+justify-content: space-evenly;
+}
+.cell {
+width: 90px;
+height: 90px;
+display: inline-block;
+margin: 0px;
+}
+.red {
+background-image: url("white-square.jpg");
+}
+.black {
+background-color: black;
+}
+.checker {
+margin: 10px;
+border-radius: 50%;
+height: 70px;
+width: 70px;
+}
+.red-checker {
+background-color: 
+}
+.black-checker {
+background-color: #555;
+}
+***/
